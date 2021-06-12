@@ -1,2 +1,3 @@
-# All python jobs in itviec.com
+# Jobs in itviec.com
 
+Script get all python jobs in itviec.com.

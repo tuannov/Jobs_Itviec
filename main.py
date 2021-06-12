@@ -59,7 +59,7 @@ def main():
     jobs = get_jobs()
     today = datetime.date.today().strftime("%Y%m%d")
     df = pd.DataFrame(jobs)
-    df.to_csv(f'{today}_itviec_jobs')
+    df.to_csv(f'{today}_itviec_jobs.csv')
 
     if args.location == "HN":
         location_filter = "Ha Noi"
